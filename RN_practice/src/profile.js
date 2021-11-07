@@ -20,6 +20,14 @@ class Profile extends Component {
                     </View>
                     <View style={styles.basicinfo}>
                         <View style={styles.elem}>
+                            <View style={{
+                                position:'absolute',
+                                left:-20,
+                                width:4,
+                                height:25,
+                                backgroundColor:'rgb(180,1,1)',
+                                flex:0
+                                }}/>
                             <Text style={styles.info}>이름</Text>
                             <Text style={styles.infoprofile}>{this.props.name}</Text>
                         </View>
@@ -156,6 +164,7 @@ const styles = StyleSheet.create({
     },
     infochange:{
         fontSize:18,
+        fontWeight:'600',
         color:'white',
         lineHeight:24,
         marginBottom:20
