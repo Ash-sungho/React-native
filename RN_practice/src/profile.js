@@ -63,7 +63,7 @@ class Profile extends Component {
                         </View>
                         <View style={styles.elem}>
                             <Text style={styles.info}>직장주소</Text>
-                            <Text style={styles.infoprofile}>경기도 성남시 중원구 </Text>
+                            <Text style={styles.infoprofile}>경기도 성남시 중원구경기도 성남시 중원구경기도 성남시 중원구경기도 성남시 중원구경기도 성남시 중원구경기도 성남시 중원구z </Text>
                         </View>
                         <View style={styles.elem}>
                             <Text style={styles.info}>직장 전화번호</Text>
@@ -144,12 +144,14 @@ const styles = StyleSheet.create({
         marginVertical: 8
     },
     info: {
+        flex:1.2,
         letterSpacing: 0.43,
         lineHeight: 24,
         fontSize: 17,
         color: 'rgb(85, 85, 85)',
     },
     infoprofile:{
+        flex:2,
         color:'rgb(19,19,19)',
         fontSize:17,
         letterSpacing: 0.43,
